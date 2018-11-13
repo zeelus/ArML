@@ -7,25 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		97123A8FAE51D8B86527CB9B /* Pods_ArML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34AE48998E09E670BED3B5B3 /* Pods_ArML.framework */; };
+		D96A2688219B4FF9005B74E8 /* MainArSceneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96A2687219B4FF9005B74E8 /* MainArSceneViewController.swift */; };
+		D96A268C219B518F005B74E8 /* ViewControlerMenager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96A268B219B518F005B74E8 /* ViewControlerMenager.swift */; };
+		D96A268F219B52F9005B74E8 /* MainArScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96A268E219B52F9005B74E8 /* MainArScene.swift */; };
+		D96A2693219B598D005B74E8 /* MainArSceneViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96A2692219B598D005B74E8 /* MainArSceneViewModel.swift */; };
 		D97D07C81F839994005DAA1A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97D07C71F839994005DAA1A /* AppDelegate.swift */; };
-		D97D07CA1F839994005DAA1A /* Scene.sks in Resources */ = {isa = PBXBuildFile; fileRef = D97D07C91F839994005DAA1A /* Scene.sks */; };
-		D97D07CC1F839994005DAA1A /* Scene.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97D07CB1F839994005DAA1A /* Scene.swift */; };
-		D97D07CE1F839994005DAA1A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97D07CD1F839994005DAA1A /* ViewController.swift */; };
-		D97D07D11F839994005DAA1A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D97D07CF1F839994005DAA1A /* Main.storyboard */; };
 		D97D07D31F839994005DAA1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D97D07D21F839994005DAA1A /* Assets.xcassets */; };
 		D97D07D61F839994005DAA1A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D97D07D41F839994005DAA1A /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		34AE48998E09E670BED3B5B3 /* Pods_ArML.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ArML.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		56D06E2F058E94249D8182FD /* Pods-ArML.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArML.release.xcconfig"; path = "Pods/Target Support Files/Pods-ArML/Pods-ArML.release.xcconfig"; sourceTree = "<group>"; };
+		D96A2687219B4FF9005B74E8 /* MainArSceneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainArSceneViewController.swift; sourceTree = "<group>"; };
+		D96A268B219B518F005B74E8 /* ViewControlerMenager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControlerMenager.swift; sourceTree = "<group>"; };
+		D96A268E219B52F9005B74E8 /* MainArScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainArScene.swift; sourceTree = "<group>"; };
+		D96A2692219B598D005B74E8 /* MainArSceneViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainArSceneViewModel.swift; sourceTree = "<group>"; };
+		D96A2694219B5CBE005B74E8 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		D97D07C41F839994005DAA1A /* ArML.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArML.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D97D07C71F839994005DAA1A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D97D07C91F839994005DAA1A /* Scene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Scene.sks; sourceTree = "<group>"; };
-		D97D07CB1F839994005DAA1A /* Scene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scene.swift; sourceTree = "<group>"; };
-		D97D07CD1F839994005DAA1A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D97D07D01F839994005DAA1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D97D07D21F839994005DAA1A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D97D07D51F839994005DAA1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D97D07D71F839994005DAA1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E13CEF9DAB31D482886FD570 /* Pods-ArML.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArML.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ArML/Pods-ArML.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +38,113 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				97123A8FAE51D8B86527CB9B /* Pods_ArML.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		49A8ECDA731CA8C33C134C68 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				34AE48998E09E670BED3B5B3 /* Pods_ArML.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7A5FF2D293F0771F19C22F88 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E13CEF9DAB31D482886FD570 /* Pods-ArML.debug.xcconfig */,
+				56D06E2F058E94249D8182FD /* Pods-ArML.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D96A2683219B4F1D005B74E8 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				D96A2690219B57CC005B74E8 /* MLModels */,
+				D97D07D21F839994005DAA1A /* Assets.xcassets */,
+				D97D07D41F839994005DAA1A /* LaunchScreen.storyboard */,
+				D97D07D71F839994005DAA1A /* Info.plist */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		D96A2684219B4F62005B74E8 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				D96A2685219B4F79005B74E8 /* MainARScene */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		D96A2685219B4F79005B74E8 /* MainARScene */ = {
+			isa = PBXGroup;
+			children = (
+				D96A2691219B5975005B74E8 /* ViewModels */,
+				D96A268D219B52E4005B74E8 /* Scene */,
+				D96A2686219B4FDE005B74E8 /* ViewControllers */,
+			);
+			path = MainARScene;
+			sourceTree = "<group>";
+		};
+		D96A2686219B4FDE005B74E8 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				D96A2687219B4FF9005B74E8 /* MainArSceneViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		D96A2689219B503B005B74E8 /* AppSetting */ = {
+			isa = PBXGroup;
+			children = (
+				D97D07C71F839994005DAA1A /* AppDelegate.swift */,
+			);
+			path = AppSetting;
+			sourceTree = "<group>";
+		};
+		D96A268A219B50D4005B74E8 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				D96A268B219B518F005B74E8 /* ViewControlerMenager.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		D96A268D219B52E4005B74E8 /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				D96A268E219B52F9005B74E8 /* MainArScene.swift */,
+			);
+			path = Scene;
+			sourceTree = "<group>";
+		};
+		D96A2690219B57CC005B74E8 /* MLModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MLModels;
+			sourceTree = "<group>";
+		};
+		D96A2691219B5975005B74E8 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				D96A2692219B598D005B74E8 /* MainArSceneViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
 		D97D07BB1F839994005DAA1A = {
 			isa = PBXGroup;
 			children = (
 				D97D07C61F839994005DAA1A /* ArML */,
 				D97D07C51F839994005DAA1A /* Products */,
+				7A5FF2D293F0771F19C22F88 /* Pods */,
+				49A8ECDA731CA8C33C134C68 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,14 +159,11 @@
 		D97D07C61F839994005DAA1A /* ArML */ = {
 			isa = PBXGroup;
 			children = (
-				D97D07C71F839994005DAA1A /* AppDelegate.swift */,
-				D97D07C91F839994005DAA1A /* Scene.sks */,
-				D97D07CB1F839994005DAA1A /* Scene.swift */,
-				D97D07CD1F839994005DAA1A /* ViewController.swift */,
-				D97D07CF1F839994005DAA1A /* Main.storyboard */,
-				D97D07D21F839994005DAA1A /* Assets.xcassets */,
-				D97D07D41F839994005DAA1A /* LaunchScreen.storyboard */,
-				D97D07D71F839994005DAA1A /* Info.plist */,
+				D96A2689219B503B005B74E8 /* AppSetting */,
+				D96A2683219B4F1D005B74E8 /* SupportingFiles */,
+				D96A268A219B50D4005B74E8 /* Utilities */,
+				D96A2684219B4F62005B74E8 /* Modules */,
+				D96A2694219B5CBE005B74E8 /* README.md */,
 			);
 			path = ArML;
 			sourceTree = "<group>";
@@ -77,9 +175,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D97D07DA1F839994005DAA1A /* Build configuration list for PBXNativeTarget "ArML" */;
 			buildPhases = (
+				AD314D6BA5B92487C0C72BB7 /* [CP] Check Pods Manifest.lock */,
 				D97D07C01F839994005DAA1A /* Sources */,
 				D97D07C11F839994005DAA1A /* Frameworks */,
 				D97D07C21F839994005DAA1A /* Resources */,
+				DAC56513FD2F1CE492EE1C62 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -129,37 +229,68 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D97D07CA1F839994005DAA1A /* Scene.sks in Resources */,
 				D97D07D61F839994005DAA1A /* LaunchScreen.storyboard in Resources */,
 				D97D07D31F839994005DAA1A /* Assets.xcassets in Resources */,
-				D97D07D11F839994005DAA1A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AD314D6BA5B92487C0C72BB7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ArML-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DAC56513FD2F1CE492EE1C62 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ArML/Pods-ArML-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ArML/Pods-ArML-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D97D07C01F839994005DAA1A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D97D07CE1F839994005DAA1A /* ViewController.swift in Sources */,
-				D97D07CC1F839994005DAA1A /* Scene.swift in Sources */,
 				D97D07C81F839994005DAA1A /* AppDelegate.swift in Sources */,
+				D96A268C219B518F005B74E8 /* ViewControlerMenager.swift in Sources */,
+				D96A268F219B52F9005B74E8 /* MainArScene.swift in Sources */,
+				D96A2693219B598D005B74E8 /* MainArSceneViewModel.swift in Sources */,
+				D96A2688219B4FF9005B74E8 /* MainArSceneViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		D97D07CF1F839994005DAA1A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D97D07D01F839994005DAA1A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		D97D07D41F839994005DAA1A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -280,11 +411,12 @@
 		};
 		D97D07DB1F839994005DAA1A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E13CEF9DAB31D482886FD570 /* Pods-ArML.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QJ67W5JP2G;
-				INFOPLIST_FILE = ArML/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/ArML/SupportingFiles/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zeelus.ArMLTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -295,11 +427,12 @@
 		};
 		D97D07DC1F839994005DAA1A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56D06E2F058E94249D8182FD /* Pods-ArML.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QJ67W5JP2G;
-				INFOPLIST_FILE = ArML/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/ArML/SupportingFiles/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zeelus.ArMLTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
