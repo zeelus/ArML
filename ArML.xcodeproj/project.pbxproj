@@ -141,6 +141,7 @@
 		D97D07BB1F839994005DAA1A = {
 			isa = PBXGroup;
 			children = (
+				D96A2694219B5CBE005B74E8 /* README.md */,
 				D97D07C61F839994005DAA1A /* ArML */,
 				D97D07C51F839994005DAA1A /* Products */,
 				7A5FF2D293F0771F19C22F88 /* Pods */,
@@ -163,7 +164,6 @@
 				D96A2683219B4F1D005B74E8 /* SupportingFiles */,
 				D96A268A219B50D4005B74E8 /* Utilities */,
 				D96A2684219B4F62005B74E8 /* Modules */,
-				D96A2694219B5CBE005B74E8 /* README.md */,
 			);
 			path = ArML;
 			sourceTree = "<group>";
