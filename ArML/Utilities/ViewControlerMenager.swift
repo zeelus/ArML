@@ -30,8 +30,7 @@ class ViewControllerManager {
 
 fileprivate extension ViewControllerManager {
     
-    func buildMainArScene() -> MainArSceneViewController {
-        let viewModel = MLTrackerViewModel()
+    func buildMainArScene(_ viewModel: MLTrackerViewModel = MLTrackerViewModel() ) -> MainArSceneViewController {
         let arView = ARSCNView()
         let mainScene = MainArScene()
         return MainArSceneViewController(viewModel: viewModel, arView: arView, scene: mainScene)

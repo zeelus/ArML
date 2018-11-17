@@ -8,6 +8,7 @@
 
 import UIKit
 import ARKit
+import RxSwift
 
 class MainArSceneViewController: UIViewController {
     
@@ -16,6 +17,8 @@ class MainArSceneViewController: UIViewController {
     private let scene: MainArScene
     
     private var lastMLTest: TimeInterval = 0.0
+    
+    private let disposeBag = DisposeBag()
     
     private static let timeBetweenTests = 0.3
     
@@ -37,6 +40,7 @@ class MainArSceneViewController: UIViewController {
     
     override func viewDidLoad() {
         self.arView.delegate = self
+        self.setupObservers()
         let configuration = ARWorldTrackingConfiguration()
         self.arView.session.run(configuration)
     }
@@ -52,8 +56,42 @@ extension MainArSceneViewController: ARSCNViewDelegate {
     func renderer(_ renderer: SCNSceneRenderer, updateAtTime time: TimeInterval) {
         if (time - self.lastMLTest) >= MainArSceneViewController.timeBetweenTests {
             self.lastMLTest = time
-            
+           self.captureImageAndAnalysis()
         }
+    }
+    
+    private func captureImageAndAnalysis() {
+        guard let captureImage = self.arView.session.currentFrame?.capturedImage else { return }
+        self.viewModel.captureImage(captureImage)
+    }
+    
+}
+
+extension MainArSceneViewController {
+    
+    func setupObservers() {
+        self.setupNodeObserver()
+    }
+    
+    private func setupNodeObserver() {
+        self.viewModel
+            .newNodeLabel
+            .asObservable()
+            .observeOn(MainScheduler.instance)
+            .filter{ $0 != nil}
+            .map{ $0! }
+            .subscribe(onNext: { [weak self] (newLabel) in
+                if let worldPosition = self?.findPositionForCenter() {
+                    self?.scene.addNode(with: newLabel, position: worldPosition)
+                }
+            })
+            .disposed(by: self.disposeBag)
+    }
+    
+    private func findPositionForCenter() -> SCNVector3? {
+        let results = self.arView.hitTest(self.view.center, types: .featurePoint)
+        
+        return  results.first?.worldTransform.translation.sceneVector3
     }
     
 }

@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		22570D36219D9F7E00674899 /* MarkerNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22570D35219D9F7E00674899 /* MarkerNode.swift */; };
+		22570D38219DA90100674899 /* SCNVector3Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22570D37219DA90100674899 /* SCNVector3Extensions.swift */; };
+		225D13D7219C4E090066BDB2 /* MobileNet.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 225D13D6219C4E090066BDB2 /* MobileNet.mlmodel */; };
+		225D13DA219C6C220066BDB2 /* SceneKitExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225D13D9219C6C220066BDB2 /* SceneKitExtension.swift */; };
 		97123A8FAE51D8B86527CB9B /* Pods_ArML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34AE48998E09E670BED3B5B3 /* Pods_ArML.framework */; };
 		D96A2688219B4FF9005B74E8 /* MainArSceneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96A2687219B4FF9005B74E8 /* MainArSceneViewController.swift */; };
 		D96A268C219B518F005B74E8 /* ViewControlerMenager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96A268B219B518F005B74E8 /* ViewControlerMenager.swift */; };
@@ -18,6 +22,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		22570D35219D9F7E00674899 /* MarkerNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkerNode.swift; sourceTree = "<group>"; };
+		22570D37219DA90100674899 /* SCNVector3Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCNVector3Extensions.swift; sourceTree = "<group>"; };
+		225D13D6219C4E090066BDB2 /* MobileNet.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MobileNet.mlmodel; sourceTree = "<group>"; };
+		225D13D9219C6C220066BDB2 /* SceneKitExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneKitExtension.swift; sourceTree = "<group>"; };
 		34AE48998E09E670BED3B5B3 /* Pods_ArML.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ArML.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		56D06E2F058E94249D8182FD /* Pods-ArML.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArML.release.xcconfig"; path = "Pods/Target Support Files/Pods-ArML/Pods-ArML.release.xcconfig"; sourceTree = "<group>"; };
 		D96A2687219B4FF9005B74E8 /* MainArSceneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainArSceneViewController.swift; sourceTree = "<group>"; };
@@ -45,6 +53,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		225D13D8219C6AEB0066BDB2 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				225D13D9219C6C220066BDB2 /* SceneKitExtension.swift */,
+				22570D37219DA90100674899 /* SCNVector3Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		225D13DB219C6EC00066BDB2 /* Nodes */ = {
+			isa = PBXGroup;
+			children = (
+				22570D35219D9F7E00674899 /* MarkerNode.swift */,
+			);
+			path = Nodes;
+			sourceTree = "<group>";
+		};
 		49A8ECDA731CA8C33C134C68 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -84,6 +109,7 @@
 		D96A2685219B4F79005B74E8 /* MainARScene */ = {
 			isa = PBXGroup;
 			children = (
+				225D13DB219C6EC00066BDB2 /* Nodes */,
 				D96A2691219B5975005B74E8 /* ViewModels */,
 				D96A268D219B52E4005B74E8 /* Scene */,
 				D96A2686219B4FDE005B74E8 /* ViewControllers */,
@@ -126,6 +152,7 @@
 		D96A2690219B57CC005B74E8 /* MLModels */ = {
 			isa = PBXGroup;
 			children = (
+				225D13D6219C4E090066BDB2 /* MobileNet.mlmodel */,
 			);
 			path = MLModels;
 			sourceTree = "<group>";
@@ -164,6 +191,7 @@
 				D96A2683219B4F1D005B74E8 /* SupportingFiles */,
 				D96A268A219B50D4005B74E8 /* Utilities */,
 				D96A2684219B4F62005B74E8 /* Modules */,
+				225D13D8219C6AEB0066BDB2 /* Extensions */,
 			);
 			path = ArML;
 			sourceTree = "<group>";
@@ -280,8 +308,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22570D38219DA90100674899 /* SCNVector3Extensions.swift in Sources */,
 				D97D07C81F839994005DAA1A /* AppDelegate.swift in Sources */,
 				D96A268C219B518F005B74E8 /* ViewControlerMenager.swift in Sources */,
+				225D13D7219C4E090066BDB2 /* MobileNet.mlmodel in Sources */,
+				22570D36219D9F7E00674899 /* MarkerNode.swift in Sources */,
+				225D13DA219C6C220066BDB2 /* SceneKitExtension.swift in Sources */,
 				D96A268F219B52F9005B74E8 /* MainArScene.swift in Sources */,
 				D96A2693219B598D005B74E8 /* MainArSceneViewModel.swift in Sources */,
 				D96A2688219B4FF9005B74E8 /* MainArSceneViewController.swift in Sources */,
