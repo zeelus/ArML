@@ -20,7 +20,7 @@ class MainArSceneViewController: UIViewController {
     
     private let disposeBag = DisposeBag()
     
-    private static let timeBetweenTests = 0.3
+    private static let timeBetweenTests = 0.8
     
     init(viewModel: MainArSceneViewModel, arView: ARSCNView, scene: MainArScene) {
         self.viewModel = viewModel
